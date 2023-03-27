@@ -2,7 +2,7 @@
 //  extensions.swift
 //  LondonParks
 //
-//  Created by Parsa Shobany on 15/08/2022.
+//  Created by Parsa Dev on 15/08/2022.
 //
 
 import SwiftUI
@@ -41,6 +41,27 @@ extension Color {
         self.init(red: r, green: g, blue: b, opacity: a)
     }
 }
+
+
+func ColorSet(parkNumber: Int) -> (VariableColor: [Color], gradient: LinearGradient, SuggestedBackground: some View) {
+    let variableColor: [Color] = [
+        (Color(hex: parksData[parkNumber].colorSets[0])!),
+        (Color(hex: parksData[parkNumber].colorSets[1])!),
+        (Color(hex: parksData[parkNumber].colorSets[2])!)
+    ]
+    let systemBackground = Color(UIColor.systemBackground).opacity(0.3)
+    let gradient = LinearGradient(
+        gradient: Gradient(colors: [variableColor[0], variableColor[1]]),
+        startPoint: .top,
+        endPoint: .bottom
+    )
+    
+    let SuggestedBackground = gradient.background(systemBackground)
+    
+    return (VariableColor: variableColor, gradient: gradient, SuggestedBackground: SuggestedBackground)
+}
+
+
 
 extension UIScreen{
    static let screenWidth = UIScreen.main.bounds.size.width

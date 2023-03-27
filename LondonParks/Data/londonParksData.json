@@ -10,7 +10,7 @@
         "colorSets": ["#2193b0","#6dd5ed","#06BCC1"],
         "isFeatured": true,
         "isFavorite": true,
-        "gallery": ["image1","image2","image3","image4"],
+        "gallery": ["charleyrivers","chilkoottrail","chincoteague","hiddenlake"],
         "coordinates": {
             "latitude": 51.502464,
             "longitude": -0.137000
@@ -102,8 +102,8 @@
         "isFavorite": true,
         "gallery": ["image1","image2","image3","image4"],
         "coordinates": {
-            "latitude": -0.16576385917477693,
-            "longitude": 51.483737554587435
+            "latitude": 51.483737554587435,
+            "longitude":-0.16576385917477693
         },
         "imageName": "turtlerock"
     },
@@ -120,8 +120,8 @@
         "isFavorite": true,
         "gallery": ["image1","image2","image3","image4"],
         "coordinates": {
-            "latitude": -0.137000,
-            "longitude": 51.502464
+            "latitude": 51.44274407252526,
+            "longitude": -0.273586167210638
         },
         "imageName": "turtlerock"
     },
@@ -138,8 +138,8 @@
         "isFavorite": true,
         "gallery": ["image1","image2","image3","image4"],
         "coordinates": {
-            "latitude": -0.137000,
-            "longitude": 51.502464
+            "latitude": 51.416651418945634,
+            "longitude": -0.3397421996490469
         },
         "imageName": "turtlerock"
     },
@@ -156,8 +156,8 @@
         "isFavorite": true,
         "gallery": ["image1","image2","image3","image4"],
         "coordinates": {
-            "latitude": -0.137000,
-            "longitude": 51.502464
+            "latitude": 51.51041619440275,
+            "longitude": -0.2938654726647954
         },
         "imageName": "turtlerock"
     },
@@ -174,8 +174,8 @@
         "isFavorite": true,
         "gallery": ["image1","image2","image3","image4"],
         "coordinates": {
-            "latitude": -0.137000,
-            "longitude": 51.502464
+            "latitude": 51.52922067295506,
+            "longitude": -0.31482425917347673
         },
         "imageName": "turtlerock"
     },
@@ -192,8 +192,8 @@
         "isFavorite": true,
         "gallery": ["image1","image2","image3","image4"],
         "coordinates": {
-            "latitude": -0.137000,
-            "longitude": 51.502464
+            "latitude": 51.49676404946054,
+            "longitude": -0.2389395790710712
         },
         "imageName": "turtlerock"
     },
@@ -210,8 +210,8 @@
         "isFavorite": true,
         "gallery": ["image1","image2","image3","image4"],
         "coordinates": {
-            "latitude": -0.137000,
-            "longitude": 51.502464
+            "latitude": 51.47704980646991,
+            "longitude": 0.0014964850070556476
         },
         "imageName": "turtlerock"
     }

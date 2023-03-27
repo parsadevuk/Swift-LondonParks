@@ -2,7 +2,7 @@
 //  MapView.swift
 //  Landmarks
 //
-//  Created by Parsa Shobany on 09/08/2022.
+//  Created by Parsa Dev on 09/08/2022.
 //
 
 import SwiftUI

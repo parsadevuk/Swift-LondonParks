@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EDF5A8E829C736C900D8150F /* Computations.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5A8E729C736C900D8150F /* Computations.swift */; };
 		EE09599328A9521A006C28BD /* londonParksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE09599228A9521A006C28BD /* londonParksData.swift */; };
 		EE49A29E28A7D443001B1A43 /* LondonParksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE49A29D28A7D443001B1A43 /* LondonParksApp.swift */; };
 		EE49A2A028A7D443001B1A43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE49A29F28A7D443001B1A43 /* ContentView.swift */; };
@@ -25,9 +26,13 @@
 		EE65944528A95D4500E35C9C /* onBoardingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65944428A95D4500E35C9C /* onBoardingCard.swift */; };
 		EE65944928A9632700E35C9C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE65944828A9632700E35C9C /* MapView.swift */; };
 		EEA48C8128ABE072004657EF /* FullDetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA48C8028ABE072004657EF /* FullDetailsPage.swift */; };
+		EEA85E3C28BE6E2C0009557E /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA85E3B28BE6E2C0009557E /* GalleryView.swift */; };
+		EEA85E3E28BEB5000009557E /* globalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA85E3D28BEB5000009557E /* globalData.swift */; };
+		EEA85E4028BEC90E0009557E /* geometrySizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA85E3F28BEC90E0009557E /* geometrySizes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EDF5A8E729C736C900D8150F /* Computations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Computations.swift; sourceTree = "<group>"; };
 		EE09599228A9521A006C28BD /* londonParksData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = londonParksData.swift; sourceTree = "<group>"; };
 		EE49A29A28A7D443001B1A43 /* LondonParks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LondonParks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE49A29D28A7D443001B1A43 /* LondonParksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LondonParksApp.swift; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		EE65944428A95D4500E35C9C /* onBoardingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoardingCard.swift; sourceTree = "<group>"; };
 		EE65944828A9632700E35C9C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		EEA48C8028ABE072004657EF /* FullDetailsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullDetailsPage.swift; sourceTree = "<group>"; };
+		EEA85E3B28BE6E2C0009557E /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		EEA85E3D28BEB5000009557E /* globalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalData.swift; sourceTree = "<group>"; };
+		EEA85E3F28BEC90E0009557E /* geometrySizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geometrySizes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +134,7 @@
 				EE65944428A95D4500E35C9C /* onBoardingCard.swift */,
 				EE65944828A9632700E35C9C /* MapView.swift */,
 				EEA48C8028ABE072004657EF /* FullDetailsPage.swift */,
+				EEA85E3B28BE6E2C0009557E /* GalleryView.swift */,
 			);
 			path = "Views Group";
 			sourceTree = "<group>";
@@ -136,6 +145,9 @@
 				EE49A2BE28A85E53001B1A43 /* ParksModel.swift */,
 				EE09599228A9521A006C28BD /* londonParksData.swift */,
 				EE49A2AB28A7D54D001B1A43 /* londonParksData.json */,
+				EDF5A8E729C736C900D8150F /* Computations.swift */,
+				EEA85E3D28BEB5000009557E /* globalData.swift */,
+				EEA85E3F28BEC90E0009557E /* geometrySizes.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -223,18 +235,22 @@
 			files = (
 				EE49A2BC28A85A62001B1A43 /* LondonParkData.xcdatamodeld in Sources */,
 				EE09599328A9521A006C28BD /* londonParksData.swift in Sources */,
+				EEA85E4028BEC90E0009557E /* geometrySizes.swift in Sources */,
 				EE65944528A95D4500E35C9C /* onBoardingCard.swift in Sources */,
 				EE65944928A9632700E35C9C /* MapView.swift in Sources */,
+				EEA85E3C28BE6E2C0009557E /* GalleryView.swift in Sources */,
 				EE49A2A028A7D443001B1A43 /* ContentView.swift in Sources */,
 				EE49A2B928A841E9001B1A43 /* imageCircleTheme.swift in Sources */,
 				EE49A2B228A7D67C001B1A43 /* Parks.swift in Sources */,
 				EE52C96B28AAF914004C2E00 /* extensions.swift in Sources */,
+				EEA85E3E28BEB5000009557E /* globalData.swift in Sources */,
 				EE49A2B028A7D5E2001B1A43 /* ModelData.swift in Sources */,
 				EE52C96928AAF7B1004C2E00 /* MapProcess.swift in Sources */,
 				EE49A2BF28A85E53001B1A43 /* ParksModel.swift in Sources */,
 				EE49A2AE28A7D58D001B1A43 /* ParkDetailsView.swift in Sources */,
 				EEA48C8128ABE072004657EF /* FullDetailsPage.swift in Sources */,
 				EE49A29E28A7D443001B1A43 /* LondonParksApp.swift in Sources */,
+				EDF5A8E829C736C900D8150F /* Computations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +307,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -345,7 +362,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

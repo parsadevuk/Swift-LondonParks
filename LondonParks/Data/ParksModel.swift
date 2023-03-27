@@ -2,7 +2,7 @@
 //  ParksModel.swift
 //  LondonParks
 //
-//  Created by Parsa Shobany on 13/08/2022.
+//  Created by Parsa Dev on 13/08/2022.
 //https://www.cntraveller.com/gallery/parks-in-london
 //https://www.londonxlondon.com/parks-in-london/
 

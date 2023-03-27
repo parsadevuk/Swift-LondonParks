@@ -12,4 +12,26 @@ This is firs pragraph.
 This is second pragraph
 """
 
-print(text)
+func parkImages(parkID: String) -> [Image] {
+    var images: [Image] = []
+    
+    for i in 0..<100 {
+        let index = String(format: "%02d", i)
+        let imageName = "\(parkID)-\(index)"
+        print("\(imageName)")
+        
+        if let _ = UIImage(named: imageName) {
+            images.append(Image(imageName))
+        } else {
+            break
+        }
+    }
+    if images.isEmpty {
+        print("Eroor loading Images")
+    }
+    
+    return images
+    
+}
+
+parkImages(parkID: "1001")
