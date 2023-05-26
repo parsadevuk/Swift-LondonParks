@@ -8,10 +8,39 @@
 import SwiftUI
 
 @main
-struct LondonParksApp: App {
+struct LondonParkApp: App {
+    @State private var showContent = false
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if showContent {
+                ContentView()
+                    .transition(.move(edge: .leading))
+                    .animation(.easeInOut(duration: 1))
+                    .onAppear{
+                        withAnimation(.linear(duration: 1)) {
+                            showContent = true
+                        }
+                    }
+            } else {
+                WelcomeScreen()
+                    .transition(.move(edge: .trailing))
+                    .animation(.easeInOut(duration: 1))
+                    .onAppear {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                            withAnimation(.linear(duration: 1)) {
+                                showContent = true
+                            }
+                        }
+                    }
+            }
         }
     }
 }
+
+
+
+
+
+
+

@@ -3,13 +3,12 @@
 //  LondonParks
 //
 //  Created by Parsa Dev on 23/05/2023.
-//
+// This page, the pfont size is responsive to the screen size
 
 import SwiftUI
+import Foundation
 
-private let fontSize = geometrySizes.screenW * 0.15
 private let logoHeight = geometrySizes.ScreenH * 0.15
-private let fontType = "Roboto-Bold"
 
 struct WelcomeScreen: View {
     var body: some View {
@@ -20,14 +19,14 @@ struct WelcomeScreen: View {
             Text("PARKS")
             Spacer()
             HStack {
-                VStack{
+                VStack(alignment: .trailing){
                     Text("Designed by Parsa Dev")
-                        .font(.custom(fontType, size: fontSize / 3))
+                        .font(.pDSmallFont)
                     Text("PARSADEV.CO.UK")
                             .onTapGesture {
                                     UIApplication.shared.open(URL(string: "https://WWW.PARSADEV.CO.UK")!, options: [:])
                             }
-                            .font(.custom(fontType, size: fontSize / 2.5))
+                            .font(.pDSmallFont)
                 }
                 .frame(maxHeight: logoHeight,alignment: .bottom)
                 Image("PD-Logo-Day")
@@ -39,7 +38,7 @@ struct WelcomeScreen: View {
             .padding(.bottom)
             .padding(.horizontal)
         }
-        .font(.custom(fontType, size: fontSize))
+        .font(.pDLargeTitle)
     }
     
     
