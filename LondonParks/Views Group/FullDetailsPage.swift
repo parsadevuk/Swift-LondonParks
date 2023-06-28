@@ -20,7 +20,6 @@ struct FullDetailsPage: View {
             (Color(hex: parksData[parkNumber].colorSets[1])!),
             (Color(hex: parksData[parkNumber].colorSets[2])!)]
         let gradient = LinearGradient(gradient: Gradient(colors: [variableColor[0],variableColor[1]]), startPoint: .top, endPoint: .bottom)
-        let nElement = parksData[parkNumber].gallery.count - 1
         
         ScrollView {
             Image(parksData[parkNumber].imageName)

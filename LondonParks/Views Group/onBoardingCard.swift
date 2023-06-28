@@ -109,20 +109,14 @@ struct onBoardingCard: View {
                 .tabViewStyle(PageTabViewStyle())
                 .padding(.bottom, 30)
                 .frame( maxWidth: UIScreen.screenWidth-35, alignment: .center)
-                    
-
-                    
             }
             .background(LinearGradient(gradient:Gradient(colors:[varibleColor[0].opacity(0),varibleColor[1].opacity(1)]),startPoint: .topLeading,endPoint: .bottomTrailing))
             .ignoresSafeArea(.all, edges: [ .bottom])
             .shadow(color: varibleColor[2], radius: 10)
             .cornerRadius(30, antialiased: true)
             .padding(.horizontal,20)
-
-        
     }
 }
-
 struct onBoardingCard_Previews: PreviewProvider {
     static var previews: some View {
         onBoardingCard(parkNumber: 0)
@@ -133,8 +127,4 @@ struct onBoardingCard_Previews: PreviewProvider {
             .previewDisplayName("iPhone 14 Pro Max")
     }
 }
-
-
-
-
 
